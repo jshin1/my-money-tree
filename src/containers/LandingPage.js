@@ -4,8 +4,9 @@ class LandingPage extends Component {
 
   render() {
     return (
-      <div>
-        <h1>My Money Tree <span role='img' aria-label='tree'>🌳</span></h1>
+      <div className='landingpage'>
+        <h1 className='header'><em>My Money Tree</em>a personal finance app that lets you see the fruits of your labor</h1>
+
       </div>
     );
   }

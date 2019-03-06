@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h2>About</h2>
+        <h2 className='header'><em>About</em></h2>
         <div className='about'>
           Hi, welcome to My Money Tree! This is a personal finance application
           with a fun little twist!<br/><br/>
@@ -32,6 +32,11 @@ class About extends Component {
           your net worth.
 
           Let's see that little seed turn into a full-blown money tree, fellow gardeners!
+        </div><br/><br/>
+
+        <div className='credits'>
+          Resource Credits:<br/>
+          Header typography styling was done by Daniel Burrows
         </div>
       </div>
     );
