@@ -1,3 +1,3 @@
 ## MY MONEY TREE README
 
-Personal finance web application built with React, Redux, JavaScript, SASS/CSS
+Stack: React, Redux, JavaScript, Ruby on Rails, SASS/CSS
