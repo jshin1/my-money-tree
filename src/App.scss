@@ -1,0 +1,34 @@
+$background: #62B84F;
+
+.App {
+  text-align: center;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+}
+
+body {
+  color: #fff;
+  background: $background;
+  font-size: 1.6rem;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+h2 {
+  font-size: 7rem;
+  margin: 4rem 0 4rem 0;
+}
+
+////////////////////////////////// ABOUT ////////////////////////////////
+
+.about {
+  font-size: 2rem;
+  text-align: left;
+}
