@@ -7,6 +7,7 @@ class About extends Component {
       <div>
         <h2 className='header'><em>About</em></h2>
         <div className='about'>
+        <div>
           Hi, welcome to My Money Tree! This is a personal finance application
           with a fun little twist!<br/><br/>
 
@@ -32,7 +33,10 @@ class About extends Component {
           your net worth.
 
           Let's see that little seed turn into a full-blown money tree, fellow gardeners!
-        </div><br/><br/>
+        </div>
+        <img className='man' src={require('../pics/man.png')} alt='financial freedom' />
+        </div>
+
 
         <div className='credits'>
           Resource Credits:<br/>

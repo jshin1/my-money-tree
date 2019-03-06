@@ -20,13 +20,13 @@ body {
 }
 
 h1 {
-  padding-top: 20rem;
+  padding-top: 5rem;
   font-size: 3rem;
 }
 
 h2 {
   font-size: 2rem;
-  margin: 4rem 0 4rem 0;
+  // margin: 4rem 0 0 0;
 }
 
 .header {
@@ -36,7 +36,7 @@ h2 {
   font-style: italic;
   letter-spacing: 0.1em;
   line-height: 2.2em;
-  margin: 5rem;
+  margin: 5rem 0 2rem 0;
 }
 
 ///////////////////////////// LANDING PAGE ///////////////////////////////////
@@ -44,7 +44,26 @@ h2 {
 .landingpage {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.moneytree {
+  height: 60vh;
+  width: auto;
+}
+
+.form {
+  background: rgba(255,255,255,.25);
+  padding: 3rem;
+  border-radius: 2rem;
 }
 
 em {
@@ -77,12 +96,22 @@ em {
 .about {
   font-size: 2rem;
   text-align: left;
+  padding: 5rem;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.man {
+  margin: 5rem;
+  // height: 40vh;
+  // width: auto;
 }
 
 .credits {
-  font-size: 1.5rem;
   font-style: italic;
   position: absolute;
+  line-height: 2.5rem;
   bottom: 5rem;
   right: 0;
   left: 0;

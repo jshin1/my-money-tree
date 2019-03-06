@@ -6,7 +6,15 @@ class LandingPage extends Component {
     return (
       <div className='landingpage'>
         <h1 className='header'><em>My Money Tree</em>a personal finance app that lets you see the fruits of your labor</h1>
-
+        <div className='form-container'>
+          <img className='moneytree' src={require('../pics/moneytree.png')} alt='money tree' />
+          <div className='form'>
+            LOGIN: <br/>
+            Username<br/>
+            Password<br/>
+            Don't have an account? Sign up!
+          </div>
+        </div>
       </div>
     );
   }
