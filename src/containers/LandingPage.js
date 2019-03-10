@@ -12,7 +12,7 @@ class LandingPage extends Component {
             LOGIN: <br/>
             Username<br/>
             Password<br/>
-            Don't have an account? Sign up!
+          <p>Don't have an account? Sign up!</p>
           </div>
         </div>
       </div>
